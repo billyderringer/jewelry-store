@@ -1,0 +1,40 @@
+@import "../colors";
+@import "../fonts";
+
+#container-row-collection{
+  padding-left: 300px;
+  background-image: url("../assets/row-collection-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  h2{
+    margin-top: 90px;
+    font-size: 2em;
+  }
+  p{
+    margin: 40px 0;
+    font-size: .9em;
+    width: 40%;
+  }
+  #row-collection-section{
+    display: flex;
+    justify-content: flex-start;
+    .row-collection{
+      background-color: $white;
+      box-shadow: 0 0 15px rgba(0,0,0,.1);
+      margin-right: 30px;
+      padding: 0 5px 10px;
+      text-align: center;
+      color: $light-grey;
+      img{
+        height: 120px;
+      }
+      h3{
+        font-size: .9em;
+      }
+    }
+  }
+  .pagination-dark{
+    justify-content: flex-start;
+    padding: 50px 0 25px;
+  }
+}
