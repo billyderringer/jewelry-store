@@ -266,7 +266,7 @@ header {
 .pagination-dark {
   display: flex;
   justify-content: flex-end;
-  margin-right: 300px; }
+  margin-right: 320px; }
   .pagination-dark a {
     margin: 0 5px; }
   .pagination-dark .active-page {
