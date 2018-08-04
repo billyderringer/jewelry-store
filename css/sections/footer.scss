@@ -1,8 +1,61 @@
 @import "../colors";
+@import "../fonts";
 
 footer{
-  height: 25vh;
+  padding-top: 100px;
+  color: $dark-grey;
   #footer-menu{
+    align-items: flex-end;
+    .footer-column{
+      margin: 0 40px;
+      h2{
+        margin-bottom: 25px;
+        font-family: $main-font;
+        font-size: 1.25em;
+      }
+      ul{
+        li{
+          margin-bottom: 10px;
+          a{
+            color: $dark-grey;
+            font-size: .85em;
+            &:hover{
+              color: $dull-pink;
+            }
+            i{
+              font-size: 1em;
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+    }
+    #clearance{
+      visibility: hidden;
+    }
+  }
+  hr{
+    margin: 50px 0 25px;
+  }
+  #footer-bottom{
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 0 20%;
+    #credit-cards{
 
+      ul{
+        li{
+          margin-right: 10px;
+          i{
+            font-size: 1.25em;
+            color: $light-grey;
+          }
+        }
+      }
+    }
+    #copyright{
+      font-size: .75em;
+      color: $dark-grey;
+    }
   }
 }

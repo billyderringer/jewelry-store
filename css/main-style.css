@@ -236,7 +236,7 @@ header {
       text-align: left;
       background-color: #fff; }
       #container-blog-collection #column-blog-left #blog-feature div p {
-        color: #5b4e4c;
+        color: #988b89;
         font-size: .8em; }
       #container-blog-collection #column-blog-left #blog-feature div h3 {
         color: #ada5a5;
@@ -264,7 +264,7 @@ header {
             padding: 10px;
             text-align: left;
             font-size: .7em;
-            color: #5b4e4c; }
+            color: #988b89; }
   #container-blog-collection #blog-btn {
     justify-content: flex-end;
     margin-right: 260px; }
@@ -323,7 +323,42 @@ header {
         font-size: .7em; }
 
 footer {
-  height: 25vh; }
+  padding-top: 100px;
+  color: #988b89; }
+  footer #footer-menu {
+    align-items: flex-end; }
+    footer #footer-menu .footer-column {
+      margin: 0 40px; }
+      footer #footer-menu .footer-column h2 {
+        margin-bottom: 25px;
+        font-family: "Crimson Text", serif;
+        font-size: 1.25em; }
+      footer #footer-menu .footer-column ul li {
+        margin-bottom: 10px; }
+        footer #footer-menu .footer-column ul li a {
+          color: #988b89;
+          font-size: .85em; }
+          footer #footer-menu .footer-column ul li a:hover {
+            color: #f57a7d; }
+          footer #footer-menu .footer-column ul li a i {
+            font-size: 1em;
+            margin-right: 15px; }
+    footer #footer-menu #clearance {
+      visibility: hidden; }
+  footer hr {
+    margin: 50px 0 25px; }
+  footer #footer-bottom {
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding: 0 20%; }
+    footer #footer-bottom #credit-cards ul li {
+      margin-right: 10px; }
+      footer #footer-bottom #credit-cards ul li i {
+        font-size: 1.25em;
+        color: #ada5a5; }
+    footer #footer-bottom #copyright {
+      font-size: .75em;
+      color: #988b89; }
 
 .center-all-flex {
   display: flex;
@@ -381,6 +416,11 @@ footer {
   width: 290px;
   height: 280px; }
 
+.light-line {
+  color: #f3ebeb;
+  width: 60%;
+  margin-left: 20%; }
+
 .half-btn {
   color: #fff;
   border: 1px solid #fff;
@@ -409,7 +449,7 @@ footer {
   .pagination-dark a {
     margin: 0 5px; }
   .pagination-dark .active-page {
-    color: #5b4e4c;
+    color: #988b89;
     text-decoration: underline; }
   .pagination-dark .inactive-page {
     color: #ada5a5;
