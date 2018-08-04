@@ -281,7 +281,8 @@ header {
     border: none;
     background-color: #f57a7d; }
     #container-contact .section-gem i {
-      color: #fff; }
+      color: #fff;
+      font-size: 1.25em; }
   #container-contact #contact-block {
     color: #fff;
     padding: 50px 0; }
