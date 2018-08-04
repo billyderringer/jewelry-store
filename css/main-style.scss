@@ -53,6 +53,7 @@
   width: 290px;
   height: 280px;
   border: 1px solid $lighter-grey;
+  background-color: $white;
   img{
     height: 50%;
   }
@@ -60,7 +61,7 @@
     font-size: 1.2em;
   }
   h3{
-    font-size: 1em;
+    font-size: .8em;
     margin-bottom: 20px;
   }
   div{
@@ -118,6 +119,23 @@
   }
   .inactive-page{
     color: $white;
+    opacity: .5;
+  }
+}
+
+.pagination-dark{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  a{
+    margin: 0 5px;
+  }
+  .active-page{
+    color: $dark-grey;
+    text-decoration: underline;
+  }
+  .inactive-page{
+    color: $light-grey;
     opacity: .5;
   }
 }

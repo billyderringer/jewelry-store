@@ -1,4 +1,5 @@
 @import "../colors";
+@import "../fonts";
 
 #container-feature-ring{
   position: relative;
@@ -48,5 +49,33 @@
         }
       }
     }
+  }
+  #grid-collection-lower{
+    background-color: $lighter-grey;
+  }
+  #grid-6{
+    width: 290px;
+    height: 280px;
+    background-image: url("../assets/grid-collection-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    h2{
+      font-family: $fancy-font;
+      font-size: 4em;
+      line-height: .8;
+    }
+    h3{
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+    #watches-btn{
+      font-size: .8em;
+    }
+  }
+  #grid-pagination{
+    padding: 50px 0;
+    background-color: $lighter-grey;
+    align-items: flex-end;
   }
 }
