@@ -1,0 +1,20 @@
+@import "../colors";
+
+#container-new-arrivals{
+  padding: 55px 0;
+  border-bottom: 1px solid $lighter-grey;
+  h2{
+    margin-bottom: 55px;
+  }
+  #new-arrival-items{
+    display: block;
+    div{
+      img{
+        width: 80%;
+      }
+    }
+    #center-item{
+      margin: 0 100px;
+    }
+  }
+}

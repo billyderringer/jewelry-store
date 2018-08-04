@@ -51,17 +51,6 @@ html, input, select, textarea, button, a {
 a {
   text-decoration: none; }
 
-.center-all-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.flex-row {
-  flex-direction: row; }
-
-.flex-column {
-  flex-direction: column; }
-
 header {
   z-index: 900;
   color: #fff;
@@ -123,6 +112,42 @@ header {
     bottom: 55px;
     left: 255px; }
 
+#container-new-arrivals {
+  padding: 55px 0;
+  border-bottom: 1px solid #f3ebeb; }
+  #container-new-arrivals h2 {
+    margin-bottom: 55px; }
+  #container-new-arrivals #new-arrival-items {
+    display: block; }
+    #container-new-arrivals #new-arrival-items div img {
+      width: 80%; }
+    #container-new-arrivals #new-arrival-items #center-item {
+      margin: 0 100px; }
+
+#container-feature-ring {
+  position: relative; }
+
+.center-all-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+.center {
+  text-align: center; }
+
+.main-font {
+  font-family: "Crimson Text", serif; }
+
+.section-header {
+  font-size: 2em;
+  line-height: .7; }
+
 .half-btn {
   color: #fff;
   border: 1px solid #fff;
@@ -136,5 +161,17 @@ header {
 .pagination .inactive-page {
   color: #fff;
   opacity: .5; }
+
+.section-gem {
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  display: inline-block;
+  border: 1px solid #f3ebeb;
+  transform: rotate(45deg); }
+  .section-gem i {
+    color: #f3ebeb;
+    transform: rotate(-45deg); }
 
 /*# sourceMappingURL=main-style.css.map */
