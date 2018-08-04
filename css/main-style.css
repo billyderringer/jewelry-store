@@ -126,6 +126,43 @@ header {
 
 #container-feature-ring {
   position: relative; }
+  #container-feature-ring #column-ring-left {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 100px; }
+    #container-feature-ring #column-ring-left img {
+      width: 75%; }
+  #container-feature-ring #column-ring-right {
+    width: 50%; }
+    #container-feature-ring #column-ring-right h2 {
+      align-self: flex-start; }
+    #container-feature-ring #column-ring-right p {
+      line-height: 1.5;
+      font-size: .9em;
+      width: 70%;
+      margin: 50px 0 100px; }
+  #container-feature-ring #grid-1 {
+    position: relative;
+    background-image: url("../assets/grid-collection-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    #container-feature-ring #grid-1 #inner-square {
+      position: absolute;
+      border: 1px solid #fff;
+      width: 90%;
+      height: 90%;
+      top: 5%;
+      left: 5%; }
+      #container-feature-ring #grid-1 #inner-square #container-grid-1 {
+        width: 100%;
+        height: 100%; }
+        #container-feature-ring #grid-1 #inner-square #container-grid-1 h2 {
+          align-self: flex-end;
+          text-align: center;
+          line-height: 1;
+          margin-bottom: 20px;
+          font-size: 2em;
+          color: #fff; }
 
 .center-all-flex {
   display: flex;
@@ -144,15 +181,56 @@ header {
 .main-font {
   font-family: "Crimson Text", serif; }
 
+.sub-font {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ada5a5; }
+
 .section-header {
   font-size: 2em;
   line-height: .7; }
+
+.grid-collection {
+  width: 290px;
+  height: 280px;
+  border: 1px solid #f3ebeb; }
+  .grid-collection img {
+    height: 50%; }
+  .grid-collection h2 {
+    font-size: 1.2em; }
+  .grid-collection h3 {
+    font-size: 1em;
+    margin-bottom: 20px; }
+  .grid-collection div h4 {
+    color: #f3ebeb; }
+    .grid-collection div h4 .collection-price {
+      color: #ada5a5;
+      padding-right: 6px; }
+    .grid-collection div h4 .collection-link {
+      border-left: 1px solid #f3ebeb;
+      padding: 3px 10px; }
+      .grid-collection div h4 .collection-link a {
+        font-size: .9em;
+        color: #fb1021; }
+      .grid-collection div h4 .collection-link i {
+        color: #ada5a5;
+        font-size: .75em; }
+
+.grid-collection-square {
+  width: 290px;
+  height: 280px; }
 
 .half-btn {
   color: #fff;
   border: 1px solid #fff;
   padding: 15px; }
   .half-btn i {
+    padding-right: 15px; }
+
+.half-btn-pink {
+  color: #fb1021;
+  border: 1px solid #fb1021;
+  padding: 15px; }
+  .half-btn-pink i {
     padding-right: 15px; }
 
 .pagination .active-page {

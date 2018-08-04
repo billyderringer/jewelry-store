@@ -1,4 +1,6 @@
 define(['jquery'], () => {
+
+    //nav scroll bg effect
     $(window).scroll(function() { // check if scroll event happened
         if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
             $("#floating-nav").css({

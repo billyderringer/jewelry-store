@@ -38,16 +38,73 @@
   font-family: $main-font;
 }
 
+.sub-font{
+  font-family: $sub-font;
+  color: $light-grey;
+}
+
 .section-header{
   font-size: 2em;
   line-height: .7;
 }
 
+//grid stuff
+.grid-collection{
+  width: 290px;
+  height: 280px;
+  border: 1px solid $lighter-grey;
+  img{
+    height: 50%;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  div{
+    h4{
+      color: $lighter-grey;
+      .collection-price{
+        color: $light-grey;
+        padding-right: 6px;
+      }
+      .collection-link{
+        border-left: 1px solid $lighter-grey;
+        padding: 3px 10px;
+        a{
+          font-size: .9em;
+          color: $pink;
+        }
+        i{
+          color: $light-grey;
+          font-size: .75em;
+        }
+      }
+    }
+
+  }
+}
+
+.grid-collection-square{
+  width: 290px;
+  height: 280px;
+}
 
 //etc
 .half-btn{
   color: $white;
   border: 1px solid $white;
+  padding: 15px;
+  i{
+    padding-right: 15px;
+  }
+}
+
+.half-btn-pink{
+  color: $pink;
+  border: 1px solid $pink;
   padding: 15px;
   i{
     padding-right: 15px;
