@@ -1,0 +1,42 @@
+@import "../colors";
+@import "../fonts";
+
+#container-splash{
+  height: 90vh;
+  position: relative;
+  align-items: flex-start;
+  background-image: url("../assets/splash-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $white;
+  div{
+    margin-left: 255px;
+    h1{
+
+      #splash-tag1{
+        font-size: 2.5em;
+        font-family: $main-font;
+      }
+      #splash-tag2{
+        display: block;
+        margin: -55px 0 60px;
+        font-size: 6em;
+        font-family: $fancy-font;
+        #d-span{
+          -webkit-text-stroke: 1px transparent;
+          text-shadow:
+                  -2px -2px 0 $d-pink,
+                  2px -2px 0 $d-pink,
+                  -2px 2px 0 $d-pink,
+                  2px 2px 0 $d-pink;
+        }
+      }
+    }
+  }
+  #splash-pagination{
+    position: absolute;
+    justify-self: end;
+    bottom: 55px;
+    left: 255px;
+  }
+}

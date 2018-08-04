@@ -1,0 +1,35 @@
+@import "fonts";
+@import "colors";
+@import "reset.min";
+@import "utilities";
+@import "sections/header";
+@import "sections/splash";
+@import "sections/new-arrivals";
+@import "sections/feature-ring";
+@import "sections/grid-collection";
+@import "sections/row-collection";
+@import "sections/blog-collection";
+@import "sections/contact";
+@import "sections/footer";
+
+
+//shared
+.half-btn{
+  color: $white;
+  border: 1px solid $white;
+  padding: 15px;
+  i{
+    padding-right: 15px;
+  }
+}
+
+.pagination{
+  .active-page{
+    color: $white;
+    text-decoration: underline;
+  }
+  .inactive-page{
+    color: $white;
+    opacity: .5;
+  }
+}

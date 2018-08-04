@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Next Jewelry Store</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Euphoria+Script" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main-style.css" type="text/css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <section class="center-all-flex">
+        <h2>NEXT.</h2>
+        <div id="search">
+            <i class="fas fa-search"></i>
+            <input type="text"
+                   id="search-bar"
+                   placeholder="Search">
+        </div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">PAGES</a>
+            <a href="#">GALLERY</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+            <a href="#"
+               id="login">
+                LOGIN<i class="fas fa-shopping-bag"></i>
+            </a>
+        </nav>
+    </section>
+</header>
+
+<!-- Splash -->
+<section id="container-splash" class="center-all-flex flex-column">
+    <div>
+        <h1>
+            <span id="splash-tag1">Hand Crafted</span>
+            <br/>
+            <span id="splash-tag2">won<span id="d-span">d</span>ers</span>
+        </h1>
+        <a href="#"
+           class="half-btn">
+            <i class="fas fa-arrow-right"></i>VIEW THE COLLECTION
+        </a>
+
+    </div>
+    <section id="splash-pagination"
+             class="pagination flex-row">
+    <a href="#"
+       class="active-page">01</a>
+    <a href="#"
+       class="inactive-page">02</a>
+    <a href="#"
+       class="inactive-page">03</a>
+</section>
+</section>
+
+
+
+<!-- Setup RequireJS -->
+<script data-main="config" src="require-2.3.5.js"></script>
+<script>
+    require(['config'], () => {
+        require([
+            //setup js files from config here 'file'
+        ])
+    })
+</script>
+</body>
+</html>
