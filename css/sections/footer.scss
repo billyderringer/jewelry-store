@@ -58,4 +58,16 @@ footer{
       color: $dark-grey;
     }
   }
+  #showing-some-love{
+    width: 100%;
+    background-color: $black;
+    color: $white;
+    padding: 15px 0;
+    a{
+      color: $dull-pink;
+    }
+    p{
+      font-size: .75em;
+    }
+  }
 }

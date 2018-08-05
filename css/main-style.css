@@ -359,6 +359,15 @@ footer {
     footer #footer-bottom #copyright {
       font-size: .75em;
       color: #988b89; }
+  footer #showing-some-love {
+    width: 100%;
+    background-color: #151011;
+    color: #fff;
+    padding: 15px 0; }
+    footer #showing-some-love a {
+      color: #f57a7d; }
+    footer #showing-some-love p {
+      font-size: .75em; }
 
 .center-all-flex {
   display: flex;
