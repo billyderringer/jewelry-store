@@ -1,0 +1,22 @@
+{
+  "name": "jewelry-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billyderringer/jewelry-store.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billyderringer/jewelry-store/issues"
+  },
+  "homepage": "https://github.com/billyderringer/jewelry-store#readme",
+  "dependencies": {
+    "local-web-server": "^2.6.0"
+  }
+}

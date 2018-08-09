@@ -7,7 +7,10 @@
     margin-bottom: 55px;
   }
   #new-arrival-items{
-    display: block;
+    @media screen and (max-width: $tablet-max) {
+      display: flex;
+      flex-wrap: wrap;
+    }
     div{
       img{
         width: 80%;

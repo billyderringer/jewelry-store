@@ -9,18 +9,51 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: $white;
+  @media screen and (max-width: $tablet-max){
+    align-items: center;
+    #splash-content{
+      margin-left: 0;
+      h1{
+        #splash-tag1{
+          font-size: 7vw;
+        }
+        #splash-tag2 {
+          margin: -6.5vw 0 60px;
+          font-size: 18vw;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $phone){
+    background-position: center;
+    background-size: 300vh;
+    #splash-content{
+      margin-left: -25vw;
+      h1{
+        #splash-tag1{
+          font-size: 9vw;
+        }
+        #splash-tag2{
+          margin-top: -9.75vw;
+          font-size: 25vw;
+        }
+      }
+    }
+    #splash-pagination{
+      display: none;
+    }
+  }
   div{
-    margin-left: 255px;
+    margin-left: 23vw;
     h1{
-
       #splash-tag1{
-        font-size: 2.5em;
+        font-size: 4.75vw;
         font-family: $main-font;
       }
       #splash-tag2{
         display: block;
-        margin: -55px 0 60px;
-        font-size: 6em;
+        margin: -4.75vw 0 60px;
+        font-size: 12.5vw;
         font-family: $fancy-font;
         #d-span{
           -webkit-text-stroke: 1px transparent;

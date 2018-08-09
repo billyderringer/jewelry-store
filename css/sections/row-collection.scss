@@ -6,6 +6,7 @@
   background-image: url("../assets/row-collection-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+
   h2{
     margin-top: 90px;
     font-size: 2em;
@@ -15,9 +16,26 @@
     font-size: .9em;
     width: 40%;
   }
+  @media screen and (max-width: $tablet-max) {
+    padding-left: 5%;
+    p{
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
   #row-collection-section{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    @media screen and (max-width: $tablet-max) {
+      justify-content: center;
+      .row-collection{
+        margin-bottom: 30px;
+        img{
+          width: 90%;
+        }
+      }
+    }
     .row-collection{
       background-color: $white;
       box-shadow: 0 0 15px rgba(0,0,0,.1);
@@ -32,9 +50,13 @@
         font-size: .9em;
       }
     }
+
   }
   .pagination-dark{
     justify-content: flex-start;
     padding: 50px 0 25px;
+    @media screen and (max-width: $tablet-max) {
+      display: none;
+    }
   }
 }

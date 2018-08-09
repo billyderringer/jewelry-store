@@ -6,6 +6,19 @@ header{
   position: fixed;
   width: 100%;
   padding: 25px 0;
+  @media screen and (max-width: $tablet-max) {
+    #nav-section{
+      h2{
+        margin: 0;
+      }
+      #search{
+        display: none;
+      }
+      nav{
+        display: none;
+      }
+    }
+  }
   section{
     h2{
       display: inline-block;

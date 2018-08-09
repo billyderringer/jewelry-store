@@ -2,16 +2,17 @@
 @import "colors";
 @import "reset.min";
 @import "utilities";
+@import "breakpoints";
+
+//sections
 @import "sections/header";
 @import "sections/splash";
 @import "sections/new-arrivals";
 @import "sections/feature-ring";
-@import "sections/grid-collection";
 @import "sections/row-collection";
 @import "sections/blog-collection";
 @import "sections/contact";
 @import "sections/footer";
-
 
 //shared
 //flex stuff & alignment
@@ -104,6 +105,10 @@
   color: $white;
   border: 1px solid $white;
   padding: 15px;
+  font-size: 1vw;
+  @media screen and (max-width: $phone){
+    font-size: 2vw;
+  }
   i{
     padding-right: 15px;
   }

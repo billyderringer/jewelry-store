@@ -20,7 +20,7 @@
 
 <!-- Navigation -->
 <header id="floating-nav">
-    <section class="center-all-flex">
+    <section id="nav-section" class="center-all-flex">
         <h2>NEXT.</h2>
         <div id="search">
             <i class="fas fa-search"></i>
@@ -45,7 +45,7 @@
 
 <!-- Splash -->
 <section id="container-splash" class="center-all-flex flex-column">
-    <div>
+    <div id="splash-content">
         <h1>
             <span id="splash-tag1">Hand Crafted</span>
             <br/>
@@ -72,20 +72,19 @@
 <section id="container-new-arrivals"
          class="main-font center-all-flex flex-column">
     <h2 class="section-header">New Arrivals</h2>
-    <section id="new-arrival-items">
-        <div class="center-all-flex">
-            <div class="flex-column center">
-                <img src="./assets/new-arrival-1.jpg" alt="new arrival 1">
-                <h3>Joana Blossom</h3>
-            </div>
-            <div id="center-item" class="flex-column center">
-                <img src="./assets/new-arrival-2.jpg" alt="new arrival 1">
-                <h3>Coloured Diamonds</h3>
-            </div>
-            <div class="flex-column center">
-                <img src="./assets/new-arrival-3.jpg" alt="new arrival 1">
-                <h3>Joana Blossom</h3>
-            </div>
+    <section id="new-arrival-items"
+             class="center-all-flex">
+        <div class="flex-column center">
+            <img src="./assets/new-arrival-1.jpg" alt="new arrival 1">
+            <h3>Joana Blossom</h3>
+        </div>
+        <div id="center-item" class="flex-column center">
+            <img src="./assets/new-arrival-2.jpg" alt="new arrival 1">
+            <h3>Coloured Diamonds</h3>
+        </div>
+        <div class="flex-column center">
+            <img src="./assets/new-arrival-3.jpg" alt="new arrival 1">
+            <h3>Joana Blossom</h3>
         </div>
     </section>
 </section>
@@ -95,7 +94,7 @@
     <div class="section-gem center-all-flex">
         <i class="fas fa-gem"></i>
     </div>
-    <div class="center-all-flex">
+    <div id="ring-content" class="center-all-flex">
         <section id="column-ring-left">
             <img src="./assets/feature-ring.jpg" alt="feature ring">
         </section>
@@ -114,7 +113,10 @@
             </a>
         </section>
     </div>
-    <section class="center-all-flex flex-row">
+
+    <!-- Grid Collection ***Inside Feature Ring -->
+    <section id="grid-collection-upper"
+             class="center-all-flex flex-row">
         <div id="grid-1"
              class="grid-collection-square">
             <div id="inner-square">
@@ -125,7 +127,7 @@
             </div>
         </div>
 
-        <!-- Grid Collection -->
+        <!-- CSS in main-style.css -->
         <div class="grid-collection center-all-flex flex-column">
             <img src="./assets/grid-collection-2.jpg" alt="grid collection 2">
             <h2 class="main-font">Flower Bit Broach</h2>
@@ -161,7 +163,7 @@
         </div>
     </section>
     <section id="grid-collection-lower"
-             class="center-all-flex">
+             class="center-all-flex flex-row">
         <div class="grid-collection center-all-flex flex-column">
             <img src="./assets/grid-collection-4.jpg" alt="grid collection 4">
             <h2 class="main-font">Hairpins of Summer</h2>
@@ -253,12 +255,13 @@
 <!-- Blog Collection -->
 <section id="container-blog-collection">
     <h2 class="main-font">Blog Updates</h2>
-    <div class="center-all-flex flex-row">
+    <div id="blog-container"
+         class="center-all-flex flex-row">
         <section id="column-blog-left">
             <div id="blog-feature"
                  class="center-all-flex flex-column">
                 <img src="./assets/grid-blog-feature.jpg" alt="blog feature">
-                <div>
+                <div id="feature-content">
                     <p>Lorem ipsum dolor sit amet, in semper persecuti mnesarchum per,
                         est et stet blandit.</p>
                     <h3>December 2017</h3>
@@ -338,7 +341,7 @@
 <!-- Footer -->
 <footer>
     <section id="footer-menu"
-             class="center-all-flex flex-row">
+             class="flex-row">
         <section class="footer-column">
             <h2>Shop Now</h2>
             <ul>

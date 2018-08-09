@@ -36,7 +36,9 @@
   #newsletter-field{
     position: absolute;
     bottom: -10%;
-    left: 37.5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     box-shadow: 0 0 15px rgba(0,0,0,.1);
     div {
       border-radius: 3px;
@@ -44,13 +46,13 @@
       i {
         color: $light-grey;
         background-color: $white;
-        padding: 15px;
+        padding: 15px 0 15px 2vw;
       }
       input {
         color: $light-grey;
         background-color: $white;
         border: none;
-        padding: 15px 75px 15px 15px;
+        padding: 15px 1.5vw 15px 15px;
         &:focus{
           outline: none;
         }

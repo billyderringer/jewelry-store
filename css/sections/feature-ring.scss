@@ -3,13 +3,42 @@
 
 #container-feature-ring{
   position: relative;
+  flex-wrap: wrap;
+  @media screen and (max-width: $tablet-max){
+    .section-gem{
+      border: none;
+      background-color: $dull-pink;
+      i{
+        color: $white;
+        font-size: 1.25em;
+      }
+    }
+    #ring-content{
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      #column-ring-left{
+        width: 100%;
+        padding-bottom: 50px;
+      }
+      #column-ring-right{
+        width: 100%;
+        padding-left: 5%;
+        h2{
+        }
+        p{
+          width: 90%;
+          margin: 50px 0;
+        }
+      }
+    }
+  }
   #column-ring-left{
     width: 50%;
     text-align: center;
+    padding-bottom: 100px;
     img{
       width: 75%;
     }
-  padding-bottom: 100px;
   }
   #column-ring-right{
     width: 50%;
@@ -23,35 +52,42 @@
       margin: 50px 0 100px;
     }
   }
-  #grid-1{
-    position: relative;
-    background-image: url("../assets/grid-collection-1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    #inner-square{
-      position: absolute;
-      border: 1px solid $white;
-      width: 90%;
-      height: 90%;
-      top: 5%;
-      left: 5%;
-      #container-grid-1{
-        width: 100%;
-        height: 100%;
-        h2{
-          align-self: flex-end;
-          text-align: center;
-          line-height: 1;
-          margin-bottom: 20px;
-          font-size: 2em;
-          color: $white;
+  #grid-collection-upper{
+    flex-wrap: wrap;
+    #grid-1{
+      position: relative;
+      background-image: url("../assets/grid-collection-1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      @media screen and (max-width: $tablet-max){
+        display: none;
+      }
+      #inner-square{
+        position: absolute;
+        border: 1px solid $white;
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+        #container-grid-1{
+          width: 100%;
+          height: 100%;
+          h2{
+            align-self: flex-end;
+            text-align: center;
+            line-height: 1;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: $white;
 
+          }
         }
       }
     }
   }
   #grid-collection-lower{
     background-color: $lighter-grey;
+    flex-wrap: wrap;
   }
   #grid-6{
     width: 290px;
@@ -60,6 +96,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: $white;
+    @media screen and (max-width: $tablet-max){
+      display: none;
+    }
     h2{
       font-family: $fancy-font;
       font-size: 4em;
@@ -77,5 +116,8 @@
     padding: 50px 0;
     background-color: $lighter-grey;
     align-items: flex-end;
+    @media screen and (max-width: $tablet-max){
+      display: none;
+    }
   }
 }
