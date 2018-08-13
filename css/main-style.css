@@ -97,8 +97,9 @@ header {
 
 #container-splash {
   height: 90vh;
+  padding: 15vw;
   position: relative;
-  align-items: flex-start;
+  justify-content: center;
   background-image: url("../assets/splash-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,24 +127,22 @@ header {
           font-size: 25vw; }
       #container-splash #splash-pagination {
         display: none; } }
-  #container-splash div {
-    margin-left: 23vw; }
-    #container-splash div h1 #splash-tag1 {
-      font-size: 4.75vw;
-      font-family: "Crimson Text", serif; }
-    #container-splash div h1 #splash-tag2 {
-      display: block;
-      margin: -4.75vw 0 60px;
-      font-size: 12.5vw;
-      font-family: "Euphoria Script", cursive; }
-      #container-splash div h1 #splash-tag2 #d-span {
-        -webkit-text-stroke: 1px transparent;
-        text-shadow: -2px -2px 0 #fd405e, 2px -2px 0 #fd405e, -2px 2px 0 #fd405e, 2px 2px 0 #fd405e; }
+  #container-splash div h1 #splash-tag1 {
+    font-size: 4.75vw;
+    font-family: "Crimson Text", serif; }
+  #container-splash div h1 #splash-tag2 {
+    display: block;
+    margin: -4.75vw 0 60px;
+    font-size: 12.5vw;
+    font-family: "Euphoria Script", cursive; }
+    #container-splash div h1 #splash-tag2 #d-span {
+      -webkit-text-stroke: 1px transparent;
+      text-shadow: -2px -2px 0 #fd405e, 2px -2px 0 #fd405e, -2px 2px 0 #fd405e, 2px 2px 0 #fd405e; }
   #container-splash #splash-pagination {
     position: absolute;
     justify-self: end;
     bottom: 55px;
-    left: 255px; }
+    left: 15vw; }
 
 #container-new-arrivals {
   padding: 55px 0;
@@ -503,6 +502,9 @@ footer {
       color: #f57a7d; }
     footer #showing-some-love p {
       font-size: .75em; }
+
+.flex {
+  display: flex; }
 
 .center-all-flex {
   display: flex;
