@@ -3,8 +3,9 @@
 
 #container-splash{
   height: 90vh;
+  padding: 15vw;
   position: relative;
-  align-items: flex-start;
+  justify-content: center;
   background-image: url("../assets/splash-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +45,7 @@
     }
   }
   div{
-    margin-left: 23vw;
+
     h1{
       #splash-tag1{
         font-size: 4.75vw;
@@ -70,6 +71,6 @@
     position: absolute;
     justify-self: end;
     bottom: 55px;
-    left: 255px;
+    left: 15vw;
   }
 }
