@@ -31,13 +31,20 @@
                    placeholder="Search">
         </div>
         <nav>
-            <a href="#">HOME</a>
-            <a href="#new-arrival-items">PRODUCTS</a>
-            <a href="#container-feature-ring">PAGES</a>
-            <a href="#container-row-collection">GALLERY</a>
-            <a href="#container-blog-collection">BLOG</a>
-            <a href="#container-contact">CONTACT</a>
-            <a href="#"
+            <a class="smoothScroll"
+               href="#container-splash">HOME</a>
+            <a class="smoothScroll"
+               href="#container-new-arrivals">PRODUCTS</a>
+            <a class="smoothScroll"
+               href="#grid-collection-upper">PAGES</a>
+            <a class="smoothScroll"
+               href="#container-row-collection">GALLERY</a>
+            <a class="smoothScroll"
+               href="#container-blog-collection">BLOG</a>
+            <a class="smoothScroll"
+               href="#container-contact">CONTACT</a>
+            <a class="smoothScroll"
+               href="#container-splash"
                id="login">
                 LOGIN<i class="fas fa-shopping-bag"></i>
             </a>
@@ -53,20 +60,20 @@
             <br/>
             <span id="splash-tag2">won<span id="d-span">d</span>ers</span>
         </h1>
-        <a href="#"
-           class="half-btn">
+        <a class="smoothScroll half-btn"
+           href="#container-new-arrivals">
             <i class="fas fa-arrow-right"></i>VIEW THE COLLECTION
         </a>
 
     </div>
     <section id="splash-pagination"
              class="pagination flex-row">
-        <a href="#"
-           class="active-page">01</a>
-        <a href="#"
-           class="inactive-page">02</a>
-        <a href="#"
-           class="inactive-page">03</a>
+        <a href="#container-splash"
+           class="active-page smoothScroll">01</a>
+        <a href="#container-splash"
+           class="inactive-page smoothScroll">02</a>
+        <a href="#container-splash"
+           class="inactive-page smoothScroll">03</a>
     </section>
 </section>
 
@@ -109,8 +116,8 @@
                 ei, ei justo dolorem definitiones his, malis malorum blandit cum id. Vix ne dicunt partiendo
                 mediocritatem, modo vide veritus eum ut, ei alienum adipiscing sit.
             </p>
-            <a href="#"
-               class="half-btn-pink">
+            <a href="#grid-collection-upper"
+               class="half-btn-pink smoothScroll">
                 <i class="fas fa-arrow-right"></i>VIEW THE COLLECTION
             </a>
         </section>
@@ -140,7 +147,8 @@
                         $5500
                     </span>
                     <span class="collection-link">
-                        <a href="#">Details</a>
+                        <a class="smoothScroll"
+                           href="#grid-collection-upper">Details</a>
                         <i class="fas fa-chevron-right"></i>
                     </span>
                 </h4>
@@ -157,7 +165,8 @@
                         $3500
                     </span>
                     <span class="collection-link">
-                        <a href="#">Details</a>
+                        <a class="smoothScroll"
+                           href="#grid-collection-upper">Details</a>
                         <i class="fas fa-chevron-right"></i>
                     </span>
                 </h4>
@@ -176,7 +185,8 @@
                         $3500
                     </span>
                     <span class="collection-link">
-                        <a href="#">Details</a>
+                        <a class="smoothScroll"
+                           href="#grid-collection-upper">Details</a>
                         <i class="fas fa-chevron-right"></i>
                     </span>
                 </h4>
@@ -192,7 +202,8 @@
                         $3500
                     </span>
                     <span class="collection-link">
-                        <a href="#">Details</a>
+                        <a class="smoothScroll"
+                           href="#grid-collection-upper">Details</a>
                         <i class="fas fa-chevron-right"></i>
                     </span>
                 </h4>
@@ -202,21 +213,21 @@
              class="center-all-flex flex-column">
             <h2>Love</h2>
             <h3 class="main-font">Ladies watches</h3>
-            <a href="#"
+            <a href="#grid-collection-upper"
                id="watches-btn"
-               class="half-btn">
+               class="half-btn smoothScroll">
                 <i class="fas fa-arrow-right"></i>LADIES WATCHES
             </a>
         </div>
     </section>
     <div id="grid-pagination">
         <section class="pagination-dark">
-            <a href="#"
-               class="active-page">01</a>
-            <a href="#"
-               class="inactive-page">02</a>
-            <a href="#"
-               class="inactive-page">03</a>
+            <a href="#grid-collection-upper"
+               class="active-page smoothScroll">01</a>
+            <a href="#grid-collection-upper"
+               class="inactive-page smoothScroll">02</a>
+            <a href="#grid-collection-upper"
+               class="inactive-page smoothScroll">03</a>
         </section>
     </div>
 </section>
@@ -245,12 +256,12 @@
         </div>
     </section>
     <section class="pagination-dark">
-        <a href="#"
-           class="active-page">01</a>
-        <a href="#"
-           class="inactive-page">02</a>
-        <a href="#"
-           class="inactive-page">03</a>
+        <a href="#container-row-collection"
+           class="active-page smoothScroll">01</a>
+        <a href="#container-row-collection"
+           class="inactive-page smoothScroll">02</a>
+        <a href="#container-row-collection"
+           class="inactive-page smoothScroll">03</a>
     </section>
 </section>
 
@@ -308,8 +319,8 @@
     </div>
     <section id="blog-btn"
              class="center-all-flex flex-row">
-        <a href="#"
-           class="half-btn-pink">
+        <a href="#container-contact"
+           class="half-btn-pink smoothScroll">
             <i class="fas fa-arrow-right"></i>VIEW THE COLLECTION
         </a>
     </section>
@@ -335,7 +346,9 @@
             <i class="far fa-envelope"></i>
             <input type="text"
                    placeholder="Enter email to subscribe">
-            <a href="#">SUBSCRIBE</a>
+            <a class="smoothScroll"
+               href="#newsletter-field">SUBSCRIBE
+            </a>
         </div>
     </section>
 </section>
@@ -437,7 +450,8 @@
 <script>
     require(['config'], () => {
         require([
-            'styles'
+            'styles',
+            'scroll'
         ])
     })
 </script>
